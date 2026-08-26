@@ -1,0 +1,6 @@
+name: my-pipeline
+schedule: daily
+start_date: "2022-01-01"
+
+default_connections:
+  duckdb: duckdb-default

@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Bruin local config/secrets
+.bruin.yml
+duckdb.db
+
+logs/runs/
+logs/*.log
+*.py[cod]
+logs/queries/
+
+# Local development state
+.DS_Store
+.cursor/
+ny_taxi_postgres_data/
+
+# Terraform-generated files and credentials
+**/.terraform/
+*.tfstate
+*.tfstate.*
+terrademo/keys/my-creds.json
